@@ -193,6 +193,8 @@ footer{
     background-color: #191a19;
     height: 100px;
 }
+
+/*Fonts*/
 @media screen and (320px <= width <= 640px){
     p{
         font-size: 1.3rem !important;
@@ -207,7 +209,7 @@ footer{
         font-size: 1.5rem !important;
     } 
 }
-@media screen and (400px <= width <= 600px){
+@media screen and (320px <= width <= 640px){
     .servicios{
         margin: 1.5em;
         display: grid;
