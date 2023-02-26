@@ -6,17 +6,17 @@ body{
     background-color: #121212;
 }
 p{
-    color: white;
+    color: #fbf1c7;
 }
 h1{
-    color: white;
+    color: #fbf1c7;
 }
 h2{
-    color: white;
+    color: #fbf1c7;
 }
 h3{
-    color: white;
-} 
+    color: #fbf1c7;
+}
 
 nav{
     /*ver aqui position*/
@@ -37,7 +37,7 @@ nav .logo{
     align-items: center;
     text-decoration: none;
     font-size: 1.5rem; 
-    color: white;
+    color: #fbf1c7;
     font-weight: bold;
 }
 nav .links{
@@ -58,11 +58,10 @@ nav .links a {
     text-decoration: none;
     font-weight: bold;
     /* font-size */
-    color: white;
+    color: #fbf1c7;
 }
 nav .links a:hover{
-    color: #4E9F3D;
-    /*color: #60c689;*/
+    color: #d65d0e;
 }
 #nav-toggle{
     position: absolute;
@@ -78,36 +77,36 @@ nav .icon-burger{
 nav .icon-burger .line {
     width: 30px;
     height: 5px;
-    background-color: white;
+    background-color: #fbf1c7;
     margin: 5px;
     border-radius: 3px;
     transition: all .3s ease-in-out;;
+}
+
+.hero{
+    background-image: linear-gradient(to bottom, #121212, #191a1984,#121212), url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
 }
 .hero-content{
     margin: 5em;
 }
 .h1-hero{
     font-size: 3rem;
-    text-shadow: 1px 1px rgb(78, 159, 61);
+    text-shadow: 1px 1px #a1b0b8;
 }
 .p-hero{
     font-size: 1.5rem;
-    text-shadow: 1px 1px rgb(78, 159, 61);
+    text-shadow: 1px 1px #a1b0b8;
     padding: 0.25em;
 }
-.p-svg{
-    display: flex;
-    gap: 2em;
-}
+
 .texto-hero{
     padding-top: 2em;
     padding-bottom: 2em;
 }
-.svg-pc{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-left: 20em;
-}
+
 .contenido-inicial{
     background-color: #191a19;
 }
@@ -148,6 +147,11 @@ nav .icon-burger .line {
 .p-servicios{
     font-size: 1.2rem;
 }
+.p-footer{
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 2em;
+}
 .p-valor-servicios{
     text-align: center;
     font-size: 1.1rem;
@@ -179,19 +183,19 @@ a.button{
     border:.16em solid rgba(255,255,255,0);
     border-radius:3em;
     box-sizing: border-box;
-    color:white;
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    color:#fbf1c7;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.50);
     text-align:center;
     transition: all .2s;
-    background-color: rgb(78, 159, 61);
+    background-color: #fe8019;
     width: 8rem;
 }
 a.button:hover{
-    background-color: rgb(20, 120, 40);
+    background-color: #d65d0e;
 }
 footer{
     background-color: #191a19;
-    height: 100px;
+    height: 150px;
 }
 
 /*Fonts*/
@@ -229,9 +233,7 @@ footer{
     }
 }
 @media screen and (width <1280px){
-    .svg-pc{
-        display: none;
-    }
+    
 }
 @media screen and (max-width: 1500px){
     nav .logo{
