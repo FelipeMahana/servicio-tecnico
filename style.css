@@ -87,9 +87,12 @@ nav .icon-burger .line {
     background-image: linear-gradient(to bottom, #121212, #191a1984,#121212), url("img/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;  
 }
-.hero-content{
+.hero-content-grande{
+    margin: 5em;
+}
+.hero-content-chico{
     margin: 5em;
 }
 .h1-hero{
@@ -195,7 +198,7 @@ a.button:hover{
 }
 footer{
     background-color: #191a19;
-    height: 150px;
+    height: 100px;
 }
 
 /*Fonts*/
@@ -207,7 +210,7 @@ footer{
         font-size: 2rem !important;
     }
     h2{
-        font-size: 1.9rem !important;
+        font-size: 1.8rem !important;
     }
     h3{
         font-size: 1.5rem !important;
@@ -219,16 +222,22 @@ footer{
         display: grid;
         gap: 2rem;
         grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));   
-    }   
+    } 
 }
 @media screen and (width < 820px){
     .texto-grande-cont-inicial{
+        display: none;
+    }
+    .hero-content-grande{
         display: none;
     }
 }
 
 @media screen and (820px <= width){
     .texto-chico-cont-inicial{
+        display: none;
+    }
+    .hero-content-chico{
         display: none;
     }
 }
